@@ -1,0 +1,107 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    width: '100%',
+    backgroundColor: 'black',
+  },
+  BalanceSheetContainer: {
+    backgroundColor: '#222222',
+    padding: '5%',
+    paddingBottom: 0,
+    borderRadius: 15,
+    margin: '1%',
+    marginVertical: '5%',
+  },
+  TopBalanceContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  TopBalConLHS: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  TopHeadCurrency: {
+    color: 'white',
+    textAlignVertical: 'center',
+    fontSize: 32,
+  },
+  TopHeadBalance: {
+    color: 'white',
+    fontSize: 18,
+  },
+  TopHeadBalanceLabel: {
+    color: '#5a5a5a',
+    fontSize: 18,
+  },
+  CenterInputView: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  CenterInputContainer: {padding: 110, width: 250, marginLeft: 70},
+  CenterInputTextContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomWidth: 0,
+  },
+  InputLeftIcon: {
+    marginRight: 0,
+    paddingTop: 15,
+    height: 50,
+  },
+  QuickEntryText: {color: 'white', fontSize: 18},
+  QuickEntryButtonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  QuickEntryButton: {
+    width: 80,
+    height: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginHorizontal: '1%',
+    borderRadius: 10,
+  },
+  BottomContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingTop: 10,
+    marginTop: 25,
+    marginBottom: 15,
+    justifyContent: 'space-between',
+    // borderColor: 'red',
+    borderTopColor: 'white',
+    borderTopWidth: 1,
+  },
+  containerLHS: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 20,
+  },
+  BottomContainerFields: {color: 'white', fontSize: 14},
+  BottomContainerFieldVal: {color: '#6e6e6e', fontSize: 12},
+  ChangeButton: {
+    backgroundColor: '#0075FD',
+    borderRadius: 7,
+    height: 40,
+    width: 90,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  ChangeButtonText: {color: 'white', fontSize: 15, fontWeight: 'bold'},
+  SendTMBA: {
+    alignSelf: 'center',
+    borderRadius: 7,
+    width: '90%',
+    padding: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  SendTMBA_text: {color: 'white', fontSize: 18, fontWeight: 'bold'},
+  error: {color: 'red', alignSelf: 'center', fontSize: 17},
+});
